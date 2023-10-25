@@ -52,5 +52,5 @@ function generateHistorypinLink(latitude, longitude) {
     const longitudeMin = longitude - 0.05;
     const longitudeMax = longitude + 0.05;
     const zoom = 12;
-    return `https://www.historypin.org/en/explore/geo/${latitude},${longitude},${zoom}/bounds/${latitudeMin},${longitudeMin},${latitudeMax},${longitudeMax}/sort/popular/paging/1`;
+    return `https://www.historypin.org/en/explore/geo/${latitude},${longitude},${zoom}/bounds/${latitudeMin},${longitudeMin},${latitudeMax},${longitudeMax}/sort/popular/paging/1/state/gallery`;
 }
